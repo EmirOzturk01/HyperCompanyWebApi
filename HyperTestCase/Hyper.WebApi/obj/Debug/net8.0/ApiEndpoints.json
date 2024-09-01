@@ -1,0 +1,283 @@
+[
+  {
+    "ContainingType": "Hyper.WebApi.Controllers.BoatController",
+    "Method": "BoatList",
+    "RelativePath": "api/Boat",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "color",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Hyper.WebApi.Controllers.BoatController",
+    "Method": "AddBoat",
+    "RelativePath": "api/Boat",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "boatCreateDTO",
+        "Type": "Hyper.WebApi.Models.Dtos.Boat.BoatCreateDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Hyper.WebApi.Controllers.BoatController",
+    "Method": "DeleteBoat",
+    "RelativePath": "api/Boat",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Hyper.WebApi.Controllers.BoatController",
+    "Method": "UpdateBoat",
+    "RelativePath": "api/Boat",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "boatUpdateDTO",
+        "Type": "Hyper.WebApi.Models.Dtos.Boat.BoatUpdateDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Hyper.WebApi.Controllers.BoatController",
+    "Method": "GetBoatById",
+    "RelativePath": "api/Boat/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Hyper.WebApi.Controllers.BusController",
+    "Method": "BusList",
+    "RelativePath": "api/Bus",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "color",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Hyper.WebApi.Controllers.BusController",
+    "Method": "AddBus",
+    "RelativePath": "api/Bus",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "busCreateDTO",
+        "Type": "Hyper.WebApi.Models.Dtos.Bus.BusCreateDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Hyper.WebApi.Controllers.BusController",
+    "Method": "DeleteBus",
+    "RelativePath": "api/Bus",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Hyper.WebApi.Controllers.BusController",
+    "Method": "UpdateBus",
+    "RelativePath": "api/Bus",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "busUpdateDTO",
+        "Type": "Hyper.WebApi.Models.Dtos.Bus.BusUpdateDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Hyper.WebApi.Controllers.BusController",
+    "Method": "GetBusById",
+    "RelativePath": "api/Bus/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Hyper.WebApi.Controllers.CarController",
+    "Method": "CarList",
+    "RelativePath": "api/Car",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "color",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Hyper.WebApi.Controllers.CarController",
+    "Method": "AddCar",
+    "RelativePath": "api/Car",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "carCreateDTO",
+        "Type": "Hyper.WebApi.Models.Dtos.Car.CarCreateDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Hyper.WebApi.Controllers.CarController",
+    "Method": "DeleteCar",
+    "RelativePath": "api/Car",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Hyper.WebApi.Controllers.CarController",
+    "Method": "UpdateCar",
+    "RelativePath": "api/Car",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "carUpdateDTO",
+        "Type": "Hyper.WebApi.Models.Dtos.Car.CarUpdateDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Hyper.WebApi.Controllers.CarController",
+    "Method": "GetCarById",
+    "RelativePath": "api/Car/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Hyper.WebApi.Controllers.CarController",
+    "Method": "ToggleHeadlights",
+    "RelativePath": "api/Car/{id}/headlights",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "headlightsOn",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Hyper.WebApi.Controllers.JwtController",
+    "Method": "GetTokenForAdmin",
+    "RelativePath": "api/Jwt/GetTokenForAdmin",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Hyper.WebApi.Controllers.JwtController",
+    "Method": "GetTokenForVisitor",
+    "RelativePath": "api/Jwt/GetTokenForVisitor",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

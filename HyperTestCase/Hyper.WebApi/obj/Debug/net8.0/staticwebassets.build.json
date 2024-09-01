@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "2BVUmUZ8MIDgqf5FtO27Cc+UoQWbAYUIqY/EJT0ZUbs=",
+  "Source": "Hyper.WebApi",
+  "BasePath": "_content/Hyper.WebApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

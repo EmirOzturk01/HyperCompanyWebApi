@@ -1,0 +1,17 @@
+C:\Users\Emir\source\repos\HyperTestCase\Hyper.DAL\bin\Debug\net8.0\Hyper.DAL.deps.json
+C:\Users\Emir\source\repos\HyperTestCase\Hyper.DAL\bin\Debug\net8.0\Hyper.DAL.runtimeconfig.json
+C:\Users\Emir\source\repos\HyperTestCase\Hyper.DAL\bin\Debug\net8.0\Hyper.DAL.dll
+C:\Users\Emir\source\repos\HyperTestCase\Hyper.DAL\bin\Debug\net8.0\Hyper.DAL.pdb
+C:\Users\Emir\source\repos\HyperTestCase\Hyper.DAL\bin\Debug\net8.0\Hyper.Entities.dll
+C:\Users\Emir\source\repos\HyperTestCase\Hyper.DAL\bin\Debug\net8.0\Hyper.Entities.pdb
+C:\Users\Emir\source\repos\HyperTestCase\Hyper.DAL\obj\Debug\net8.0\Hyper.DAL.csproj.AssemblyReference.cache
+C:\Users\Emir\source\repos\HyperTestCase\Hyper.DAL\obj\Debug\net8.0\Hyper.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Emir\source\repos\HyperTestCase\Hyper.DAL\obj\Debug\net8.0\Hyper.DAL.AssemblyInfoInputs.cache
+C:\Users\Emir\source\repos\HyperTestCase\Hyper.DAL\obj\Debug\net8.0\Hyper.DAL.AssemblyInfo.cs
+C:\Users\Emir\source\repos\HyperTestCase\Hyper.DAL\obj\Debug\net8.0\Hyper.DAL.csproj.CoreCompileInputs.cache
+C:\Users\Emir\source\repos\HyperTestCase\Hyper.DAL\obj\Debug\net8.0\Hyper.DAL.csproj.Up2Date
+C:\Users\Emir\source\repos\HyperTestCase\Hyper.DAL\obj\Debug\net8.0\Hyper.DAL.dll
+C:\Users\Emir\source\repos\HyperTestCase\Hyper.DAL\obj\Debug\net8.0\refint\Hyper.DAL.dll
+C:\Users\Emir\source\repos\HyperTestCase\Hyper.DAL\obj\Debug\net8.0\Hyper.DAL.pdb
+C:\Users\Emir\source\repos\HyperTestCase\Hyper.DAL\obj\Debug\net8.0\Hyper.DAL.genruntimeconfig.cache
+C:\Users\Emir\source\repos\HyperTestCase\Hyper.DAL\obj\Debug\net8.0\ref\Hyper.DAL.dll

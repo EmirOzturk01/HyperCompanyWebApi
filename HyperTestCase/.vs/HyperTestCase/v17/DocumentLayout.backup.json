@@ -1,0 +1,85 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Emir\\source\\repos\\HyperTestCase\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{22914B11-A8CC-4B56-8EDB-C51569B06A9C}|Hyper.Entities\\Hyper.Entities.csproj|c:\\users\\emir\\source\\repos\\hypertestcase\\hyper.entities\\models\\concrete\\bus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22914B11-A8CC-4B56-8EDB-C51569B06A9C}|Hyper.Entities\\Hyper.Entities.csproj|solutionrelative:hyper.entities\\models\\concrete\\bus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22914B11-A8CC-4B56-8EDB-C51569B06A9C}|Hyper.Entities\\Hyper.Entities.csproj|c:\\users\\emir\\source\\repos\\hypertestcase\\hyper.entities\\models\\concrete\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22914B11-A8CC-4B56-8EDB-C51569B06A9C}|Hyper.Entities\\Hyper.Entities.csproj|solutionrelative:hyper.entities\\models\\concrete\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22914B11-A8CC-4B56-8EDB-C51569B06A9C}|Hyper.Entities\\Hyper.Entities.csproj|c:\\users\\emir\\source\\repos\\hypertestcase\\hyper.entities\\models\\abstract\\vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22914B11-A8CC-4B56-8EDB-C51569B06A9C}|Hyper.Entities\\Hyper.Entities.csproj|solutionrelative:hyper.entities\\models\\abstract\\vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D91454A7-7AB6-4356-AF1E-536D4077DDC0}|Hyper.WebApi\\Hyper.WebApi.csproj|c:\\users\\emir\\source\\repos\\hypertestcase\\hyper.webapi\\controllers\\carcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D91454A7-7AB6-4356-AF1E-536D4077DDC0}|Hyper.WebApi\\Hyper.WebApi.csproj|solutionrelative:hyper.webapi\\controllers\\carcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Bus.cs",
+              "DocumentMoniker": "C:\\Users\\Emir\\source\\repos\\HyperTestCase\\Hyper.Entities\\Models\\Concrete\\Bus.cs",
+              "RelativeDocumentMoniker": "Hyper.Entities\\Models\\Concrete\\Bus.cs",
+              "ToolTip": "C:\\Users\\Emir\\source\\repos\\HyperTestCase\\Hyper.Entities\\Models\\Concrete\\Bus.cs",
+              "RelativeToolTip": "Hyper.Entities\\Models\\Concrete\\Bus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-01T20:25:29.079Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Car.cs",
+              "DocumentMoniker": "C:\\Users\\Emir\\source\\repos\\HyperTestCase\\Hyper.Entities\\Models\\Concrete\\Car.cs",
+              "RelativeDocumentMoniker": "Hyper.Entities\\Models\\Concrete\\Car.cs",
+              "ToolTip": "C:\\Users\\Emir\\source\\repos\\HyperTestCase\\Hyper.Entities\\Models\\Concrete\\Car.cs",
+              "RelativeToolTip": "Hyper.Entities\\Models\\Concrete\\Car.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-01T20:25:27.977Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Vehicle.cs",
+              "DocumentMoniker": "C:\\Users\\Emir\\source\\repos\\HyperTestCase\\Hyper.Entities\\Models\\Abstract\\Vehicle.cs",
+              "RelativeDocumentMoniker": "Hyper.Entities\\Models\\Abstract\\Vehicle.cs",
+              "ToolTip": "C:\\Users\\Emir\\source\\repos\\HyperTestCase\\Hyper.Entities\\Models\\Abstract\\Vehicle.cs",
+              "RelativeToolTip": "Hyper.Entities\\Models\\Abstract\\Vehicle.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-01T20:25:23.945Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CarController.cs",
+              "DocumentMoniker": "C:\\Users\\Emir\\source\\repos\\HyperTestCase\\Hyper.WebApi\\Controllers\\CarController.cs",
+              "RelativeDocumentMoniker": "Hyper.WebApi\\Controllers\\CarController.cs",
+              "ToolTip": "C:\\Users\\Emir\\source\\repos\\HyperTestCase\\Hyper.WebApi\\Controllers\\CarController.cs",
+              "RelativeToolTip": "Hyper.WebApi\\Controllers\\CarController.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-01T20:10:51.888Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

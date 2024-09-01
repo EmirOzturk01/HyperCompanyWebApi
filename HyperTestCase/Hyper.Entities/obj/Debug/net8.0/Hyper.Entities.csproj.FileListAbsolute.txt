@@ -1,0 +1,14 @@
+C:\Users\Emir\source\repos\HyperTestCase\Hyper.Entities\bin\Debug\net8.0\Hyper.Entities.deps.json
+C:\Users\Emir\source\repos\HyperTestCase\Hyper.Entities\bin\Debug\net8.0\Hyper.Entities.runtimeconfig.json
+C:\Users\Emir\source\repos\HyperTestCase\Hyper.Entities\bin\Debug\net8.0\Hyper.Entities.dll
+C:\Users\Emir\source\repos\HyperTestCase\Hyper.Entities\bin\Debug\net8.0\Hyper.Entities.pdb
+C:\Users\Emir\source\repos\HyperTestCase\Hyper.Entities\obj\Debug\net8.0\Hyper.Entities.csproj.AssemblyReference.cache
+C:\Users\Emir\source\repos\HyperTestCase\Hyper.Entities\obj\Debug\net8.0\Hyper.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Emir\source\repos\HyperTestCase\Hyper.Entities\obj\Debug\net8.0\Hyper.Entities.AssemblyInfoInputs.cache
+C:\Users\Emir\source\repos\HyperTestCase\Hyper.Entities\obj\Debug\net8.0\Hyper.Entities.AssemblyInfo.cs
+C:\Users\Emir\source\repos\HyperTestCase\Hyper.Entities\obj\Debug\net8.0\Hyper.Entities.csproj.CoreCompileInputs.cache
+C:\Users\Emir\source\repos\HyperTestCase\Hyper.Entities\obj\Debug\net8.0\Hyper.Entities.dll
+C:\Users\Emir\source\repos\HyperTestCase\Hyper.Entities\obj\Debug\net8.0\refint\Hyper.Entities.dll
+C:\Users\Emir\source\repos\HyperTestCase\Hyper.Entities\obj\Debug\net8.0\Hyper.Entities.pdb
+C:\Users\Emir\source\repos\HyperTestCase\Hyper.Entities\obj\Debug\net8.0\Hyper.Entities.genruntimeconfig.cache
+C:\Users\Emir\source\repos\HyperTestCase\Hyper.Entities\obj\Debug\net8.0\ref\Hyper.Entities.dll
