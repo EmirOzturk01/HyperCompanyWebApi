@@ -24,9 +24,9 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "boatCreateDTO",
-        "Type": "Hyper.WebApi.Models.Dtos.Boat.BoatCreateDTO",
-        "IsRequired": true
+        "Name": "Color",
+        "Type": "System.String",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []
@@ -56,9 +56,14 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "boatUpdateDTO",
-        "Type": "Hyper.WebApi.Models.Dtos.Boat.BoatUpdateDTO",
-        "IsRequired": true
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Color",
+        "Type": "System.String",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []
@@ -104,9 +109,9 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "busCreateDTO",
-        "Type": "Hyper.WebApi.Models.Dtos.Bus.BusCreateDTO",
-        "IsRequired": true
+        "Name": "Color",
+        "Type": "System.String",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []
@@ -136,9 +141,14 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "busUpdateDTO",
-        "Type": "Hyper.WebApi.Models.Dtos.Bus.BusUpdateDTO",
-        "IsRequired": true
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Color",
+        "Type": "System.String",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []
@@ -184,9 +194,19 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "carCreateDTO",
-        "Type": "Hyper.WebApi.Models.Dtos.Car.CarCreateDTO",
-        "IsRequired": true
+        "Name": "Color",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "HeadlightsOn",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "Wheels",
+        "Type": "System.Int32",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []
@@ -216,9 +236,24 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "carUpdateDTO",
-        "Type": "Hyper.WebApi.Models.Dtos.Car.CarUpdateDTO",
-        "IsRequired": true
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Color",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "HeadlightsOn",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "Wheels",
+        "Type": "System.Int32",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []

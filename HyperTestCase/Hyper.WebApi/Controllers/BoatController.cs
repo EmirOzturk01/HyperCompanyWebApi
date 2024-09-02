@@ -56,7 +56,7 @@ namespace Hyper.WebApi.Controllers
 
         [Authorize(Roles = "Admin")]
         [HttpPost]
-        public async Task<IActionResult> AddBoat(BoatCreateDTO boatCreateDTO)
+        public async Task<IActionResult> AddBoat([FromForm] BoatCreateDTO boatCreateDTO)
         {
             if (!ModelState.IsValid)
             {
@@ -64,7 +64,7 @@ namespace Hyper.WebApi.Controllers
             }
             var boat = _mapper.Map<Boat>(boatCreateDTO);
             await _boatManager.InsertAsync(boat);
-            return Ok();
+            return Ok("Araç başarıyla eklendi");
         }
 
         [Authorize(Roles = "Admin")]
@@ -77,12 +77,12 @@ namespace Hyper.WebApi.Controllers
                 return NotFound($"Araç ID {id} bulunamadı.");
             }
             _boatManager.DeleteAsync(boat);
-            return Ok();
+            return Ok("Araç başarıyla silindi.");
         }
 
         [Authorize(Roles = "Admin")]
         [HttpPut]
-        public async Task<IActionResult> UpdateBoat(BoatUpdateDTO boatUpdateDTO)
+        public async Task<IActionResult> UpdateBoat([FromForm] BoatUpdateDTO boatUpdateDTO)
         {
             if (!ModelState.IsValid)
             {
@@ -96,7 +96,7 @@ namespace Hyper.WebApi.Controllers
 
             var boat = _mapper.Map(boatUpdateDTO, existingBoat);
             await _boatManager.UpdateAsync(boat);
-            return Ok();
+            return Ok("Araç başarıyla güncellendi.");
         }
     }
 }

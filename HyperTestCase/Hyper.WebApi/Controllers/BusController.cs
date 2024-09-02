@@ -56,7 +56,7 @@ namespace Hyper.WebApi.Controllers
 
         [Authorize(Roles = "Admin")]
         [HttpPost]
-        public async Task<IActionResult> AddBus(BusCreateDTO busCreateDTO)
+        public async Task<IActionResult> AddBus([FromForm] BusCreateDTO busCreateDTO)
         {
             if (!ModelState.IsValid)
             {
@@ -64,7 +64,7 @@ namespace Hyper.WebApi.Controllers
             }
             var bus = _mapper.Map<Bus>(busCreateDTO);
             await _busManager.InsertAsync(bus);
-            return Ok();
+            return Ok($"Araç başarıyla eklendi.");
         }
 
         [Authorize(Roles = "Admin")]
@@ -77,12 +77,12 @@ namespace Hyper.WebApi.Controllers
                 return NotFound($"Araç ID {id} bulunamadı.");
             }
             _busManager.DeleteAsync(bus);
-            return Ok();
+            return Ok($"Araç başarıyla silindi.");
         }
 
         [Authorize(Roles = "Admin")]
         [HttpPut]
-        public async Task<IActionResult> UpdateBus(BusUpdateDTO busUpdateDTO)
+        public async Task<IActionResult> UpdateBus([FromForm] BusUpdateDTO busUpdateDTO)
         {
             if (!ModelState.IsValid)
             {
@@ -96,7 +96,7 @@ namespace Hyper.WebApi.Controllers
 
             var bus = _mapper.Map(busUpdateDTO, existingBus);
             await _busManager.UpdateAsync(bus);
-            return Ok();
+            return Ok($"Araç başarıyla güncellendi.");
         }
 
     }

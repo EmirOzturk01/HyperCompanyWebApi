@@ -64,7 +64,7 @@ namespace Hyper.WebApi.Controllers
 
         [Authorize(Roles = "Admin")]
         [HttpPost("{id}/headlights")]
-        public async Task<IActionResult> ToggleHeadlights(int id, bool headlightsOn)
+        public async Task<IActionResult> ToggleHeadlights(int id,[FromForm] bool headlightsOn)
         {
             var car = await _carManager.GetByIdAsync(id);
             if (car == null)
@@ -75,13 +75,13 @@ namespace Hyper.WebApi.Controllers
             car.HeadlightsOn = headlightsOn;
             await _carManager.UpdateAsync(car);
 
-            return NoContent();
+            return Ok();
         }
 
 
         [Authorize(Roles = "Admin")]
         [HttpPost]
-        public async Task<IActionResult> AddCar(CarCreateDTO carCreateDTO)
+        public async Task<IActionResult> AddCar([FromForm] CarCreateDTO carCreateDTO)
         {
             if (!ModelState.IsValid)
             {
@@ -89,7 +89,7 @@ namespace Hyper.WebApi.Controllers
             }
             var car = _mapper.Map<Car>(carCreateDTO);
             await _carManager.InsertAsync(car);
-            return Ok();
+            return Ok("Araç başarıyla eklendi.");
         }
 
         [Authorize(Roles = "Admin")]
@@ -102,13 +102,13 @@ namespace Hyper.WebApi.Controllers
                 return NotFound($"Araç ID {id} bulunamadı.");
             }
             _carManager.DeleteAsync(car);
-            return Ok();
+            return Ok("Araç başarıyla silindi.");
         }
 
 
         [Authorize(Roles = "Admin")]
         [HttpPut]
-        public async Task<IActionResult> UpdateCar(CarUpdateDTO carUpdateDTO)
+        public async Task<IActionResult> UpdateCar([FromForm] CarUpdateDTO carUpdateDTO)
         {
             if (!ModelState.IsValid)
             {
@@ -122,7 +122,7 @@ namespace Hyper.WebApi.Controllers
 
             var car = _mapper.Map(carUpdateDTO, existingCar);
             await _carManager.UpdateAsync(car);
-            return Ok();
+            return Ok("Araç başarıyla güncellendi.");
         }
     }
 }
