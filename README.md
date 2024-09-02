@@ -42,7 +42,7 @@ JWT nin test edilmesi için postman klasörlemesi yaptım. Kendi Postman çalı�
 
 ![image](https://github.com/user-attachments/assets/048614cd-27a6-4fe4-9ab1-1e4433738273)
 
-[HyperCompany.postman_collection.json](https://github.com/user-attachments/files/16830446/HyperCompany.postman_collection.json)
+[HyperCompany.postman_collection.json](https://github.com/user-attachments/files/16831215/HyperCompany.postman_collection.json)
 
 # JWT
 Kimlik doğrulama için JWT kullanıldı. Postman üzerinden 'GetTokenForVisitor' veya 'GetTokenForAdmin' isteklerini göndererek accessToken alabilirsiniz. Alınan accessToken Authorization menüsünden Auth Type 'Bearer Token' seçilip ilgili alana girilmeli.
